@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title%></title> 
+    <!-- this page is receiving two variable patient Object and Title that is sent by view controller-->
+</head>
+<body>
+    <h1>
+       Patient Details 
+    </h1>
+    <p>
+        <h2>ID : <%=patient.id%> </h2>
+        <h2>NAME : <%=patient.name%> </h2>
+        <h2>AGE : <%=patient.dob%> </h2>
+        <h2>GENDER : <%=patient.gender%> </h2>
+        <h2>NUMBER : <%=patient.number%> </h2>
+        <h2>ADDRESS : <%=patient.address%> </h2>
+    </p>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "My First Project for displaying the details of the registered patients",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./views/input.css -o ./public/css/tailwindstyle.css --watch",
+    "start": "nodemon app.js & npm run tailwind"
+  },
+  "author": "TNB",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^3.4.15"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  }
+}
