@@ -8,6 +8,7 @@ const hostRouter = require('./routes/hostRouteHandler');
 const rootDir = require('./utilities/directoryPathHandler');
 
 const app = express();
+//this is the editted part of the code
 
 app.set('view engine', 'ejs');//setting up the view engine ejs
 app.set('views','views'); // setting up the folder where we store 
