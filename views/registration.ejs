@@ -5,33 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/tailwindstyle.css" />
-    <title>Registration</title>
+    <title>Registration Of the patients</title>
 </head>
 
 <body class="bg-blue-200">
-    <div class="conatiner  min-h-screen text-center" >
-        <div class="w-full mt-24 mb-20"><h1 class="text-4xl font-bold">WELCOME TO REGISTRATION</h1></div>
+    <div class="conatiner  min-h-screen text-center">
+        <div class="w-full mt-24 mb-20">
+            <h1 class="text-4xl font-bold">WELCOME TO REGISTRATION</h1>
+        </div>
         <fieldset class="border-2 border-black">
             <legend class="text-black font-bold text-xl">Patient Registration</legend>
             <form action="/user/patients-list" method="post">
                 <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 bg-blue-400 p-1 grid-flow-row align-middle">
                     <span class="font-semibold, text-lg m-auto text-right">Patinet Name:</span>
-                    <input name="name" type="text" placeholder="Patient Name" class="border-2 border-black mt-2 p-1 bg-blue-200 text-bold w-full ">
+                    <input name="name" type="text" placeholder="Patient Name"
+                        class="border-2 border-black mt-2 p-1 bg-blue-200 text-bold w-full ">
                     <span class="font-semibold, text-lg m-auto text-right">Aadhar Number:</span>
-                    <input name="aadhar" type="text" placeholder="Aadhar Number" class="border-2 border-black mt-2 p-1 bg-blue-200 text-bold w-full ">  
+                    <input name="aadhar" type="text" placeholder="Aadhar Number"
+                        class="border-2 border-black mt-2 p-1 bg-blue-200 text-bold w-full ">
                     <span class="font-semibold, text-lg m-auto text-end">Date of Birth:</span>
-                    <input name="dob" type="date" placeholder="Date of Birth" class="border-2 border-black mt-2 p-1 bg-blue-200 text-bold w-full ">
+                    <input name="dob" type="date" placeholder="Date of Birth"
+                        class="border-2 border-black mt-2 p-1 bg-blue-200 text-bold w-full ">
                     <span class="font-semibold, text-lg m-auto text-end">Gender:</span>
-                    <input name="gender" type="text" placeholder="Patient Gender" class="border-2 border-black mt-2 p-1 bg-blue-200 text-bold w-full ">
+                    <input name="gender" type="text" placeholder="Patient Gender"
+                        class="border-2 border-black mt-2 p-1 bg-blue-200 text-bold w-full ">
                     <span class="font-semibold, text-lg m-auto text-end">Contact:</span>
-                    <input name="mobile" type="text" placeholder="Mobile Number" class="border-2 border-black mt-2 p-1 bg-blue-200 text-bold w-full ">
+                    <input name="mobile" type="text" placeholder="Mobile Number"
+                        class="border-2 border-black mt-2 p-1 bg-blue-200 text-bold w-full ">
                     <span class="font-semibold, text-lg m-auto text-end">Address:</span>
-                    <textarea name="address"type="text" placeholder="Address" class="border-2 border-black mt-2 p-1 bg-blue-200 text-bold w-full "></textarea>      
+                    <textarea name="address" type="text" placeholder="Address"
+                        class="border-2 border-black mt-2 p-1 bg-blue-200 text-bold w-full "></textarea>
                 </div>
-                <input class="bg-blue-600 text-white rounded-xl p-2 font-bold text-md hover:bg-white w-28 hover:text-blue-600 mt-5 mb-4 cursor-auto"type="submit" value="Add Patient">
+                <input
+                    class="bg-blue-600 text-white rounded-xl p-2 font-bold text-md hover:bg-white w-28 hover:text-blue-600 mt-5 mb-4 cursor-auto"
+                    type="submit" value="Add Patient">
             </form>
         </fieldset>
-        
+
     </div>
 </body>
 
